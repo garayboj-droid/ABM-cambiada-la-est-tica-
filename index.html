@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control - Morado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #6610f2 0%, #3d0894 100%);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 2rem;
+            padding: 3rem;
+        }
+        .btn-purple {
+            background-color: #f3e5f5;
+            color: #6610f2;
+            font-weight: bold;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+        .btn-purple:hover {
+            background-color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+            <div class="glass-card shadow">
+                <div class="mb-4">
+                    <div class="display-1">💜</div>
+                </div>
+                <h1 class="fw-black mb-3">Escuela Digital</h1>
+                <p class="opacity-75 mb-5">Gestiona la base de datos con una interfaz limpia, rápida y elegante.</p>
+                
+                <a href="mostrar.php" class="btn btn-purple btn-lg px-5 py-3 w-100">
+                    ACCEDER AL LISTADO
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
